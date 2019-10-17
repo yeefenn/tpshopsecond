@@ -1,0 +1,13 @@
+findson方法不存在 时间:2019-09-20 IP:::1
+findson方法不存在 时间:2019-09-20 IP:::1
+Call to undefined function application\home\controller\get() 时间:2019-09-20 IP:::1
+Call to undefined function application\home\controller\get() 时间:2019-09-20 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:18错误提示:Use of undefined constant res - assumed 'res' 时间:2019-09-20 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:18错误提示:Use of undefined constant res - assumed 'res' 时间:2019-09-20 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:19错误提示:Undefined index: cate_name 时间:2019-09-20 IP:::1
+Syntax error in template "file:D:\app\PHPTutorial\WWW\TP\application\home\view\ask\show.html"  on line 29 "$("select[name='cate-son']").html()="" +" missing 'item' attribute 时间:2019-09-20 IP:::1
+Syntax error in template "file:D:\app\PHPTutorial\WWW\TP\application\home\view\ask\show.html"  on line 29 "// $("select[name='cate-son']").html()="" +" missing 'item' attribute 时间:2019-09-20 IP:::1
+Syntax error in template "file:D:\app\PHPTutorial\WWW\TP\application\home\view\ask\show.html"  on line 29 "" missing 'item' attribute 时间:2019-09-20 IP:::1
+Syntax error in template "file:D:\app\PHPTutorial\WWW\TP\application\home\view\ask\show.html"  on line 29 "" missing 'item' attribute 时间:2019-09-20 IP:::1
+Syntax error in template "file:D:\app\PHPTutorial\WWW\TP\application\home\view\ask\show.html"  on line 40 "//         " missing 'item' attribute 时间:2019-09-20 IP:::1
+Syntax error in template "file:D:\app\PHPTutorial\WWW\TP\application\home\view\ask\show.html"  on line 40 "//         " missing 'item' attribute 时间:2019-09-20 IP:::1

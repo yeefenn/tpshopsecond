@@ -1,0 +1,8 @@
+syntax error, unexpected ',' 时间:2019-09-18 IP:::1
+syntax error, unexpected '$reg1' (T_VARIABLE) 时间:2019-09-18 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\LoginController.class.php行数:166错误提示:Illegal string offset 'figureurl_qq' 时间:2019-09-18 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\LoginController.class.php行数:167错误提示:Undefined index: figureurl_qq 时间:2019-09-18 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\LoginController.class.php行数:167错误提示:Illegal string offset 'figureurl_qq' 时间:2019-09-18 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\LoginController.class.php行数:167错误提示:Illegal string offset 'figureurl_qq' 时间:2019-09-18 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\LoginController.class.php行数:171错误提示:Undefined index: figureurl_qq 时间:2019-09-18 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\LoginController.class.php行数:169错误提示:Array to string conversion 时间:2019-09-18 IP:::1

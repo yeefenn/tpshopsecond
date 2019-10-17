@@ -1,0 +1,12 @@
+Call to undefined method application\admin\model\Cate::add() 时间:2019-09-05 IP:127.0.0.1
+Call to undefined method application\admin\model\Cate::add() 时间:2019-09-05 IP:127.0.0.1
+请输入一个数组 时间:2019-09-05 IP:127.0.0.1
+sql语句错误 时间:2019-09-05 IP:127.0.0.1
+错误文件:D:\QUES\application\admin\controller\IndexController.class.php行数:27错误提示:Illegal string offset 'cate_name' 时间:2019-09-05 IP:127.0.0.1
+错误文件:D:\QUES\application\admin\controller\IndexController.class.php行数:27错误提示:Undefined index: cate_status 时间:2019-09-05 IP:127.0.0.1
+sql语句错误 时间:2019-09-05 IP:127.0.0.1
+sql语句错误 时间:2019-09-05 IP:127.0.0.1
+sql语句错误 时间:2019-09-05 IP:127.0.0.1
+sql语句错误 时间:2019-09-05 IP:127.0.0.1
+sql语句错误 时间:2019-09-05 IP:127.0.0.1
+错误文件:D:\QUES\application\admin\controller\IndexController.class.php行数:8错误提示:Undefined property: framework\core\Request::$isGet 时间:2019-09-05 IP:127.0.0.1

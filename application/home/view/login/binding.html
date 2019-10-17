@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>后盾问答</title>
+    <meta name="keywords" content="后盾问答"/>
+    <meta name="description" content="后盾问答"/>
+    <link rel="stylesheet" href="<{resource()}>index/Css/common.css" />
+    <script type="text/javascript" src='<{resource()}>index/Js/jquery-1.7.2.min.js'></script>
+    <script type="text/javascript" src='<{resource()}>index/Js/top-bar.js'></script>
+    <link rel="stylesheet" href="<{resource()}>index/Css/index.css" />
+    <script type="text/javascript" src='<{resource()}>index/Js/index.js'></script>
+    <script type="text/javascript" src='<{resource()}>index/Js/validate.js'></script>
+</head>
+<body>
+<!-- top -->
+<center>
+<div id='login' class=''>
+    <div class='login-title'>
+        <p>欢迎您注册后盾问答</p >
+<!--        <a href="" title='关闭' class='close-window'></a >-->
+    </div>
+    <div class='login-form'>
+
+        <!-- 登录FORM -->
+        <form action="<{url('login/binding')}>" method='post' name='login'>
+            <input type="hidden" value="<{$user_name}>" name="user_name">
+            <input type="hidden" value="<{$user_face}>" name="user_face">
+            <input type="hidden" value="<{$openid}>" name="openid">
+            <ul>
+                <li>
+                    <label for="login-acc">账号</label>
+                    <input type="text" name='user_account' class='input' id='login-acc'/>
+                    <span id='login-msg'></span>
+                </li>
+                <li>
+                    <label for="login-verify">验证码</label>
+                    <input type="text" name='code' id='login-verify'/>
+                    <span id='code-msg' style="color: red"></span>
+                    <span style="display: inline-block;padding: 3px;border: 1px solid #ccc;border-radius: 5px;cursor: pointer" class="sendCode"  >发送验证码</span>
+                </li>
+
+                <li>
+                    <input type="submit" value='确认绑定' />
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
+</center>
+
+</body>
+</html>
+<!-- 底部结束 -->
+
+

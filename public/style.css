@@ -1,0 +1,8 @@
+.success {
+    padding: 10px;
+    color: #0e90d2;
+}
+.error{
+    padding: 10px;
+    color: #FA5C53;
+}

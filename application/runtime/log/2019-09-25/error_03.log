@@ -1,0 +1,4 @@
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:161错误提示:Undefined variable: pagenow 时间:2019-09-25 IP:::1
+Syntax error in template "file:D:\app\PHPTutorial\WWW\TP\application\home\view\ask\answer.html"  on line 335 ""  - Unexpected "}>" 时间:2019-09-25 IP:::1
+sql语句错误 时间:2019-09-25 IP:::1
+sql语句错误 时间:2019-09-25 IP:::1

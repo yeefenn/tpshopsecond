@@ -1,0 +1,19 @@
+非法请求 时间:2019-09-21 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\LoginController.class.php行数:244错误提示:Undefined index: user_id 时间:2019-09-21 IP:::1
+非法请求 时间:2019-09-21 IP:::1
+非法请求 时间:2019-09-21 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:69错误提示:Undefined index: login 时间:2019-09-21 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:69错误提示:Undefined index: session 时间:2019-09-21 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:69错误提示:Undefined index: session 时间:2019-09-21 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:69错误提示:Undefined index: user_id 时间:2019-09-21 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:69错误提示:Undefined index: user_id 时间:2019-09-21 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\HomeController.class.php行数:10错误提示:Use of undefined constant eixt - assumed 'eixt' 时间:2019-09-21 IP:::1
+非法请求 时间:2019-09-21 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:69错误提示:Array to string conversion 时间:2019-09-21 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:69错误提示:Array to string conversion 时间:2019-09-21 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:69错误提示:Array to string conversion 时间:2019-09-21 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:69错误提示:Array to string conversion 时间:2019-09-21 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\5a7d4d0b9bbb8388a6e3925d80ca05945aaa501a_0.file.user_home.html.php行数:69错误提示:Array to string conversion 时间:2019-09-21 IP:::1
+D:\app\PHPTutorial\WWW\TP/application/home/view/home/user_home.html模板不存在 时间:2019-09-21 IP:::1
+D:\app\PHPTutorial\WWW\TP/application/home/controller/Session.class.php文件不存在 时间:2019-09-21 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:15错误提示:Undefined index: user_gold 时间:2019-09-21 IP:::1

@@ -1,0 +1,3 @@
+Class \application\home\model\Cate does not exist 时间:2019-09-23 IP:::1
+Call to undefined method application\home\controller\HomeController::select() 时间:2019-09-23 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\HomeController.class.php行数:31错误提示:Undefined variable: cate_order 时间:2019-09-23 IP:::1

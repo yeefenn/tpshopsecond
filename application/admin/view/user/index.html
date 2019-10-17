@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title></title>
+    <link rel="stylesheet" href="<{resource()}>admin/Css/public.css" />
+    <script type="text/javascript" src="<{resource()}>admin/Js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="<{resource()}>admin/Js/public.js"></script>
+    <script type="text/javascript" src="<{resource()}>admin/layer/layer.js"></script>
+    <script>
+        $(function () {
+        //    点击展示详细信息
+            $('.user_detail').click(function () {
+                var user_exp=$(this).attr('user_exp');
+                var user_gold=$(this).attr('user_gold');
+                var user_face=$(this).attr('user_face');
+                html="<p>经验："+user_exp+"</p>";
+                html+="<p>金币："+user_gold+"</p>";
+                html+="<p>头像："+user_face+"</p>";
+                // iframe层
+                layer.open({
+                    type: 1,
+                    skin: 'layui-layer-rim', //加上边框
+                    area: ['420px', '240px'], //宽高
+                    content: html
+                });
+            });
+        //    点击修改状态
+            $('.status').click(function () {
+                var user_status =$(this).attr("user_status");
+                obj=$(this);
+                var user_id=$(this).parent().parent().attr("user_id");
+                // alert(user_id);
+                $.ajax({
+                    type:'get',
+                    url:"changeStatus",
+                    data:{
+                        user_status:user_status,
+                        user_id:user_id
+                    },
+                    dataType:'json',
+                    beforeSend:function () {
+                        obj.html("发送中")
+                    },
+                    success:function(res){
+                      if(res.status==1){
+                         if(user_status==1){
+                             obj.html("禁用");
+                             obj.attr('user_status',0);
+                         }else{
+                              obj.html("正常");
+                              obj.attr('user_status',1);
+                          }
+                      }else{
+                          obj.html("修改失败");
+                        }
+                    },
+                    error:function () {
+                        obj.html("网络异常");
+                    }
+                })
+            });
+        // 点击修改用户名
+        //    点击变成input
+            $(document).on('click','.user_name',function () {
+                user_name=$(this).html().trim();
+                obj=$(this);
+                obj.parent().html("<input  name='user_name' value='"+user_name+"'/>").find('input').focus();
+            });
+            // $('.user_name').click(function () {
+            //     user_name=$(this).attr('user_name');
+            //    obj=$(this);
+            //    obj.parent().html("<input type='text' name='user_name' value='"+user_name+"'/>").find('input').focus();
+            // });
+        //失焦变成span
+            $(document).on("blur","input[name='user_name']",function () {
+                var new_user_name=$(this).val().trim();
+                obj=$(this);
+                if(new_user_name==''){
+                    $(this).parent().html("<span class='user_name'>"+user_name+"</span>");
+                }else {
+                    if(new_user_name===user_name){
+                        $(this).parent().html("<span class='user_name'>"+user_name+"</span>");
+                    }else{
+                    //    发送Ajax更改数据
+                        var user_id=$(this).parent().parent().attr("user_id");
+                        $.ajax({
+                            type:'get',
+                            url:'changeName',
+                            data:{
+                                user_name:new_user_name,
+                                user_id:user_id
+                            },
+                            dataType:'json',
+                            beforeSend:function () {
+                                //暂时没弄好
+                                obj.html("发送中")
+                            },
+                            success:function(res) {
+                                if(res.status==1){
+                                    obj.parent().html("<span class='user_name'>"+new_user_name+"</span>");
+                                }else{
+                                    obj.parent().html("<span class='user_name'>"+user_name+"修改失败</span>");
+                                }
+                            },
+                            error:function() {
+                                obj.parent().html("<span class='user_name'>"+user_name+"网络异常</span>");
+                            }
+
+                        })
+                    }
+                }
+
+            });
+
+        //    搜索分页
+            $('#search').click(function () {
+                // alert(1);
+                obj=$(this);
+                var user_phone=$("input[name='user_phone']").val();
+                var user_email=$("input[name='user_email']").val();
+                var user_status=$("select[name='user_status']").val();
+                $.ajax({
+                    type:'post',
+                    url:"Search",
+                    data:{
+                        user_phone:user_phone,
+                        user_email:user_email,
+                        user_status:user_status
+                    },
+                    success:function(res) {
+                        if(res.status==1){
+
+                        }
+                        if(res.status==-1){
+
+                        }
+                        if(res.staus==0){
+                            $('tbody').html('<tr><td colspan="8">暂无数据</td></tr>');
+                        }
+                    },
+                    error:function () {
+                    obj.after().html("<span>网络异常</span>");
+                        // obj.html('网络异常')
+                    }
+
+
+                })
+            })
+
+
+        })
+    </script>
+
+
+</head>
+<body>
+<table class="table" border="1">
+    <input type="text" name="user_phone" placeholder="请输入手机号">
+    <input type="text" name="user_email" placeholder="要搜索的邮箱">
+    <select name="user_status" id="">
+        <option value="-1">全部</option>
+        <option value="1">正常</option>
+        <option value="0">禁用</option>
+    </select>
+    <input type="submit" value="搜索" id="search">
+    <thead>
+    <tr class="tableTop">
+        <td class="tdLittle1">id</td>
+        <td>用户名</td>
+        <td>用户手机号</td>
+        <td>用户邮箱</td>
+        <td>用户详情</td>
+<!--        放到隐藏文本中。点击展示-->
+<!--        <td>金币</td>-->
+<!--        <td>经验</td>-->
+        <td>注册时间</td>
+        <td>帐号状态</td>
+        <td>操作</td>
+    </tr>
+    </thead>
+    <tbody>
+    <{foreach from=$user item=vo}>
+    <tr user_id="<{$vo.user_id}>">
+        <td><{$vo.user_id}></td>
+        <td><span class="user_name" user_name="<{$vo.user_name}>"><{$vo.user_name}></span></td>
+        <td><{$vo.user_phone}></td>
+        <td><{$vo.user_email}></td>
+        <td>
+            <a user_exp="<{$vo.user_exp}>" user_gold="<{$vo.user_gold}>" user_face="<{$vo.user_face}>"  class="user_detail" href="javascript:void(0)">用户详情</a>
+        </td>
+        <td><{$vo.user_time}></td>
+        <td><span class="status" user_status="<{$vo.user_status}>"><{if $vo.user_status eq '1'}>
+            正常
+            <{elseif $vo.user_status eq '0'}>
+            禁用
+            <{/if}>
+            </span>
+        </td>
+        <td>
+            <a href="">删除</a>
+            <a href="">修改</a>
+        </td>
+
+    </tr>
+    <{/foreach}>
+    </tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="<{resource()}>admin/Css/add_category.css" />
+    <script type="text/javascript" src='<{resource()}>index/Js/jquery-1.7.2.min.js'></script>
+    <title>问题分类展示</title>
+    <script>
+        $(function () {
+            $("tbody tr[cate_pid!='0']").hide();
+            $(".showPlus").toggle(function () {
+                var cate_id=$(this).parents("tr").attr("cate_id");
+                $("tbody tr[cate_pid='"+cate_id+"']").show();
+            },function () {
+                var cate_id=$(this).parents("tr").attr("cate_id");
+                $("tbody tr[cate_pid='"+cate_id+"']").hide();
+            });
+
+        });
+    </script>
+</head>
+<body>
+<form action="" method="post">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>展开</th>
+            <th>分类id</th>
+            <th>分类名称</th>
+            <th>分类顺序</th>
+            <th>分类状态</th>
+            <th>操作分类</th>
+        </tr>
+        </thead>
+        <tbody>
+        <{foreach from=$cates item=vo}>
+        <tr cate_id="<{$vo.cate_id}>" cate_pid="<{$vo.cate_pid}>">
+            <td><a href="javascript:void(0)" class="showPlus"></a></td>
+            <td class="th" ><{$vo.cate_id}></td>
+            <td class="th" >
+<!--                str_repeat() 函数把字符串重复指定的次数-->
+                <{if $vo.cate_pid neq '0'}>
+                <{str_repeat("---",2)}>.<{$vo.cate_name}>
+                <{elseif $vo.cate_pid eq '0'}>
+                <{$vo.cate_name}>
+                <{/if}>
+            </td>
+            <td class="th" ><{$vo.cate_order}></td>
+            <td class="th" ><{$vo.cate_status}></td>
+            <td class="th" >
+                <a href="<{url('delect')}>">删除</a>
+                <a href="<{url('update',['cate_id'=>$vo.cate_id])}>">修改</a>
+            </td>
+        </tr>
+        <{/foreach}>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>

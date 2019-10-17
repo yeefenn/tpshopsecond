@@ -1,0 +1,8 @@
+Class \application\home\model\Cate does not exist 时间:2019-09-24 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:75错误提示:Undefined variable: cates 时间:2019-09-24 IP:::1
+Call to undefined method application\home\controller\AskController::Cateline() 时间:2019-09-24 IP:::1
+Too few arguments to function application\home\controller\AskController::Cateline(), 1 passed in D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php on line 138 and exactly 2 expected 时间:2019-09-24 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:142错误提示:Undefined variable: arr 时间:2019-09-24 IP:::1
+Class \application\home\model\Cate does not exist 时间:2019-09-24 IP:::1
+Class \application\home\model\Cate does not exist 时间:2019-09-24 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Ask\19eb26b9ed1b322ed6e9a097338362471b2b4a0c_0.file.answer.html.php行数:256错误提示:Undefined index: cate_nmae 时间:2019-09-24 IP:::1

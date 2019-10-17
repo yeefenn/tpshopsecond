@@ -1,0 +1,2 @@
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\config\app.php行数:3错误提示:Use of undefined constant level - assumed 'level' 时间:2019-09-24 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\framework\core\App.class.php行数:168错误提示:array_merge(): Argument #2 is not an array 时间:2019-09-24 IP:::1

@@ -1,0 +1,7 @@
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:102错误提示:Undefined variable: answer_face 时间:2019-09-24 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:150错误提示:Undefined index: cate_pid 时间:2019-09-24 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:98错误提示:Undefined index: user_id 时间:2019-09-24 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:98错误提示:Undefined index: user_id 时间:2019-09-24 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:99错误提示:Undefined index: user_id 时间:2019-09-24 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:99错误提示:Undefined index: user_id 时间:2019-09-24 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\AskController.class.php行数:141错误提示:Undefined variable: ask_answer 时间:2019-09-24 IP:::1

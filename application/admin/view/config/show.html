@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="<{resource()}>admin/Css/add_category.css" />
+    <title></title>
+</head>
+<body>
+<form action="<{url('update_config')}>" method="post">
+
+    <table class="table">
+        <tr>
+            <th>配置id</th>
+            <th>配置名称</th>
+            <th>配置变量</th>
+            <th>配置值</th>
+            <th>操作</th>
+        </tr>
+        <{foreach from=$configs item=vo}>
+        <tr>
+            <td><{$vo.config_id}></td>
+            <td><{$vo.config_name}></td>
+            <td><{$vo.config_var}></td>
+            <td><{$vo.html}></td>
+            <td>
+                <a href="">删除</a>
+                <a href="<{url('update',['config_id'=>$vo.config_id])}>">修改</a>
+                <input type="hidden" name="config_id[]" value="<{($vo.config_id)}>" >
+            </td>
+        </tr>
+        <{/foreach}>
+    </table>
+    <input type="submit" value="保存配置">
+<!--    <a href="<{url('update_config')}>"><input type="submit" value="保存配置"></a>-->
+
+</form>
+</body>
+</html>

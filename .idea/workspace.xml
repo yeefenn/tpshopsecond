@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58724a3a-044d-40d3-97d3-9db922874e47" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ProjectId" id="1PzsGmYWS4ohNJkbv0cmt5p4O0h" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tp5" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\app\PHPTutorial\WWW\TP\public" />
+      <recent name="D:\app\PHPTutorial\WWW\TP\public\index\Images" />
+      <recent name="D:\app\PHPTutorial\WWW\TP\public\admin" />
+      <recent name="D:\QUES\public" />
+      <recent name="D:\QUES\public\index\Images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\tpself\framework\core" />
+      <recent name="D:\tpself\framework" />
+      <recent name="D:\tpself\farmework" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58724a3a-044d-40d3-97d3-9db922874e47" name="Default Changelist" comment="" />
+      <created>1566888165594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566888165594</updated>
+      <workItem from="1566888166957" duration="8731000" />
+      <workItem from="1566962067191" duration="23039000" />
+      <workItem from="1567038651521" duration="32807000" />
+      <workItem from="1567125215119" duration="5684000" />
+      <workItem from="1567231410305" duration="1215000" />
+      <workItem from="1567313959858" duration="26067000" />
+      <workItem from="1567354090204" duration="6492000" />
+      <workItem from="1567384532002" duration="26663000" />
+      <workItem from="1567470793778" duration="30522000" />
+      <workItem from="1567557327491" duration="1237000" />
+      <workItem from="1567594571577" duration="878000" />
+      <workItem from="1567643610504" duration="35659000" />
+      <workItem from="1567729443115" duration="31835000" />
+      <workItem from="1567816504627" duration="2240000" />
+      <workItem from="1567989573426" duration="1958000" />
+      <workItem from="1568277784185" duration="4285000" />
+      <workItem from="1568593880039" duration="27727000" />
+      <workItem from="1568680428683" duration="35197000" />
+      <workItem from="1568766678318" duration="221000" />
+      <workItem from="1568767310910" duration="43552000" />
+      <workItem from="1568853165243" duration="32103000" />
+      <workItem from="1568939422136" duration="26403000" />
+      <workItem from="1569025803574" duration="20747000" />
+      <workItem from="1569169212254" duration="3341000" />
+      <workItem from="1569198985325" duration="31575000" />
+      <workItem from="1569285045091" duration="29253000" />
+      <workItem from="1569371748477" duration="13415000" />
+      <workItem from="1569827910947" duration="636000" />
+      <workItem from="1570149054222" duration="620000" />
+      <workItem from="1570851949419" duration="693000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

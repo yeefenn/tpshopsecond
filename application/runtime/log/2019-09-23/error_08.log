@@ -1,0 +1,12 @@
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\HomeController.class.php行数:28错误提示:file_put_contents(RUN_DEFAULT_PATH.static/index.html): failed to open stream: No such file or directory 时间:2019-09-23 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\HomeController.class.php行数:28错误提示:file_put_contents(APP_RUNTIME_PATH.static/index.html): failed to open stream: No such file or directory 时间:2019-09-23 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\home\controller\HomeController.class.php行数:28错误提示:file_put_contents('APP_RUNTIME_PATH'.static/index.html): failed to open stream: No such file or directory 时间:2019-09-23 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:320错误提示:Undefined index: ask_content 时间:2019-09-23 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:320错误提示:Undefined index: ask_content 时间:2019-09-23 IP:::1
+syntax error, unexpected '=', expecting ',' or ')' 时间:2019-09-23 IP:::1
+sql语句错误 时间:2019-09-23 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:320错误提示:Undefined index: ask_content 时间:2019-09-23 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:320错误提示:Undefined index: ask_content 时间:2019-09-23 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:320错误提示:Undefined index: ask_content 时间:2019-09-23 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:320错误提示:Undefined index: ask 时间:2019-09-23 IP:::1
+错误文件:D:\app\PHPTutorial\WWW\TP\application\runtime\home\Home\d74ca811686513392c50eae4c58e19c6baf63b9e_0.file.home.html.php行数:315错误提示:Undefined index: ask 时间:2019-09-23 IP:::1

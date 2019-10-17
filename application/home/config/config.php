@@ -1,0 +1,67 @@
+<?php
+return[
+    'level'=>[
+//        数值为该等级最大经验值，每回答一个问题或发表一个问题增加5经验
+        'lv0'=>5,
+        'lv1'=>15,
+        'lv2'=>30,
+        'lv3'=>50,
+        'lv4'=>70,
+        'lv5'=>100
+
+    ],
+    'phiz'=>[
+        '呵呵'=>'hehe.gif',
+        '哈哈'=>'haha.gif',
+        '嘻嘻'=>"xixi.gif",
+        '可爱'=>"keai.gif",
+        '可怜'=>"kelian.gif",
+        '挖鼻屎'=>"wabisi.gif",
+        '吃惊'=>"chijing.gif",
+        '害羞'=>"haixiu.gif",
+        '挤眼'=>"jiyan.gif",
+        '闭嘴'=>"bizui.gif",
+        '鄙视'=>"bishi.gif",
+        '爱你'=>"aini.gif",
+        '泪'=>"lei.gif",
+        '偷笑'=>"touxiao.gif",
+        '亲亲'=>"qinqin.gif",
+        '生病'=>"shengbin.gif",
+        '太开心'=>"taikaixin.gif",
+        '懒得理你'=>"ldln.gif",
+        '右哼哼'=>"youhenhen.gif",
+        '左哼哼'=>"zuohenhen.gif",
+        '嘘'=>"xiu.gif",
+        '衰'=>"shuai.gif",
+        '委屈'=>"weiqu.gif",
+        '吐'=>"tu.gif",
+        '打哈欠'=>"dahaqian.gif",
+        '抱抱'=>"baobao.gif",
+        '怒'=>"nu.gif",
+        '疑问'=>"yiwen.gif",
+        '馋嘴'=>"canzui.gif",
+        '拜拜'=>"baibai.gif",
+        '思考'=>"sikao.gif",
+        '汗'=>"han.gif",
+        '困'=>"kun.gif",
+        '睡觉'=>"shuijiao.gif",
+        '钱'=>"qian.gif",
+        '失望'=>"shiwang.gif",
+        '酷'=>"ku.gif",
+        '花心'=>"huaxin.gif",
+        '哼'=>"heng.gif",
+        '鼓掌'=>"guzhang.gif",
+        '晕'=>"yun.gif",
+        '悲伤'=>"beishuang.gif",
+        '抓狂'=>"zuakuang.gif",
+        '黑线'=>"heixian.gif",
+        '阴险'=>"yinxian.gif",
+        '怒骂'=>"numa.gif",
+        '心'=>"xin.gif",
+        '伤心'=>"shuangxin.gif"
+    ]
+
+]
+
+
+?>

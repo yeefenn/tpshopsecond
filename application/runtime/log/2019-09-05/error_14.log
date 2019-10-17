@@ -1,0 +1,7 @@
+Syntax error in template "file:D:\QUES\application\admin\view\cate\update.html"  on line 17 ""  - Unexpected "}", expected one of: "}>" 时间:2019-09-05 IP:127.0.0.1
+syntax error, unexpected ' 时间:2019-09-05 IP:127.0.0.1
+错误文件:D:\QUES\application\admin\controller\CateController.class.php行数:58错误提示:Undefined variable: cates 时间:2019-09-05 IP:127.0.0.1
+错误文件:D:\QUES\application\runtime\admin\Cate\a7d7422774ffaa6cbdceebe5dbd433ca1b966d54_0.file.update.html.php行数:64错误提示:Undefined index: cates 时间:2019-09-05 IP:127.0.0.1
+错误文件:D:\QUES\application\runtime\admin\Cate\a7d7422774ffaa6cbdceebe5dbd433ca1b966d54_0.file.update.html.php行数:66错误提示:Undefined index: cates 时间:2019-09-05 IP:127.0.0.1
+错误文件:D:\QUES\application\runtime\admin\Cate\a7d7422774ffaa6cbdceebe5dbd433ca1b966d54_0.file.update.html.php行数:66错误提示:Undefined index: cates 时间:2019-09-05 IP:127.0.0.1
+Syntax error in template "file:D:\QUES\application\admin\view\cate\update.html"  on line 41 "value=""  - Unexpected "}", expected one of: "}>" 时间:2019-09-05 IP:127.0.0.1

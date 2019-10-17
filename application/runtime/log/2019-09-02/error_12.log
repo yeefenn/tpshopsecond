@@ -1,0 +1,13 @@
+Call to undefined function application\admin\controller\Module()时间:2019-09-02 IP:127.0.0.1
+Call to undefined function application\admin\controller\Module()时间:2019-09-02 IP:127.0.0.1
+Call to undefined function application\admin\controller\Module()时间:2019-09-02 IP:127.0.0.1
+Using $this when not in object context时间:2019-09-02 IP:127.0.0.1
+syntax error, unexpected '->' (T_OBJECT_OPERATOR)时间:2019-09-02 IP:127.0.0.1
+Call to a member function table() on null时间:2019-09-02 IP:127.0.0.1
+syntax error, unexpected '->' (T_OBJECT_OPERATOR)时间:2019-09-02 IP:127.0.0.1
+Call to undefined function application\admin\controller\Mysql()时间:2019-09-02 IP:127.0.0.1
+Call to undefined function application\admin\controller\Mysql()时间:2019-09-02 IP:127.0.0.1
+Call to a member function table() on null时间:2019-09-02 IP:127.0.0.1
+Call to private framework\core\Mysql::__construct() from context 'application\admin\controller\LoginController'时间:2019-09-02 IP:127.0.0.1
+Call to undefined function application\admin\controller\Mysql()时间:2019-09-02 IP:127.0.0.1
+Call to undefined function application\admin\controller\Mysql()时间:2019-09-02 IP:127.0.0.1
